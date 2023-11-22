@@ -13,9 +13,14 @@ function div(num1, num2) {
     return num1 / num2;
 }
 
+function mod(num1, num2) {
+    return num1 % num2;
+}
+
 module.exports = {
     sum,
     sub,
     mul,
-    div
+    div,
+    mod
 }
